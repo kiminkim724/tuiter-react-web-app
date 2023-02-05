@@ -1,0 +1,147 @@
+body#wd-dark {
+    background-color: black;
+    max-width: 600px;
+}
+
+.wd-post-border {
+    border: solid rgb(47, 51, 54);
+    overflow: hidden;
+    display: flex;
+}
+
+.wd-border {
+    border: solid rgb(47, 51, 54);
+    overflow: hidden;
+}
+
+.wd-title {
+    float: left;
+    width: 100%;
+    padding-top: 12px;
+    padding-left: 16px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+.wd-handle {
+    float: left;
+    width: 100%;
+    padding-bottom: 12px;
+    padding-left: 16px;
+    font-size: 13px;
+    color: rgba(211, 211, 211, 0.658);
+}
+
+img#wd-avatar {
+    float: left;
+    border-radius: 50%;
+    margin-left: 16px;
+    margin-top: 12px;
+    width: 48px;
+}
+
+.wd-left-column {
+    height: 100%;
+    clear: both;
+}
+.wd-right-column {
+    width: 100%;
+    clear: both;
+}
+
+.wd-author {
+    float: left;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    padding-left: 12px;
+    padding-top: 12px;
+}
+
+.wd-date-posted {
+    float: left;
+    font-size: 15px;
+    color: rgb(110, 118, 125);
+    padding-left: 4px;
+    padding-top: 12px;
+}
+
+.wd-main-content {
+    color: white;
+    font-size: 15px;
+    max-width: 506px;
+    margin-right: 16px;
+    margin-left: 12px;
+    float: left;
+}
+
+
+img#wd-content-image {
+    float: left;
+    height: 100%;
+    border: solid rgb(47, 51, 54);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    margin-left: 12px;
+    margin-top: 12px;
+    width: 504px;
+    height: 264px;
+}
+
+.wd-content-border {
+    max-width: 504px;
+    float: left;
+    border: solid rgb(47, 51, 54);
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    margin-left: 12px;
+    overflow: hidden;
+}
+
+.wd-post-title {
+    float: left;
+    width: 100%;
+    margin: 12px;
+    margin-bottom: 0px;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+
+}
+
+.wd-post-content {
+    float: left;
+    width: 100%;
+    margin: 12px;
+    margin-top: 0px;
+    font-size: 15px;
+    color: rgba(211, 211, 211, 0.658);
+
+}
+
+.wd-grid-row {
+    clear: both;
+    margin: 12px;
+    padding-top: 12px;
+    display: flex;
+    justify-content: space-between;
+    color:white
+}
+
+
+.wd-interact {
+    text-decoration: none;
+    font-size: 15px;
+    color: rgba(211, 211, 211, 0.658);
+}
+
+.wd-interact-selected {
+    text-decoration: none;
+    font-size: 15px;
+    color: red;
+}
+
+.wd-link-margin {
+    padding-right: 12px;
+}
