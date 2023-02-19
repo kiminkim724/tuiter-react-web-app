@@ -1,7 +1,7 @@
 const PostSummaryItem = (post) => {
     return (`
     <li class="list-group-item">
-        <div class="row d-flex flex-wrap align-items-center">
+        <div class="row d-flex flex-wrap">
             <div class="col-10">
                 <p class="text-secondary mb-1">${post.topic}</p>
                 <span class="fw-bold">${post.userName} </span>
