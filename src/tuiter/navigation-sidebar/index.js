@@ -1,4 +1,7 @@
 import React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faHome, faHashtag, faAsterisk, faBell, faEnvelope, faBookmark, faList, faUser, faEllipsis } from "@fortawesome/free-solid-svg-icons";
+
 
 const NavigationSidebar = (
     {
@@ -7,39 +10,58 @@ const NavigationSidebar = (
 ) => {
     return (
         <div className="list-group">
-            <a className="list-group-item">Tuiter</a>
-            <a className={`list-group-item
-                    ${active === 'home' ? 'active' : ''}`}>
-                Home
-            </a>
-            <a className={`list-group-item
+            <li className="list-group-item">Tuiter</li>
+            <li className={`list-group-item
+                    ${active === 'home' ? 'active' : ''}`} href='/'>
+                <FontAwesomeIcon icon={faHome} />
+                <span class="d-none d-xl-inline"> Home</span>
+            </li>
+            <li className={`list-group-item
                     ${active === 'explore' ? 'active' : ''}`}>
-                Explore
-            </a>
-            <a className={`list-group-item
+                <FontAwesomeIcon icon={faHashtag} />
+                <span class="d-none d-xl-inline"> Explore</span>
+            </li>
+            <li className={`list-group-item
+                    ${active === 'explore' ? 'active' : ''}`}>
+                <FontAwesomeIcon icon={faAsterisk} />
+                <span class="d-none d-xl-inline"> Labs</span>
+            </li>
+            <li className={`list-group-item
                     ${active === 'notifications' ? 'active' : ''}`}>
-                Notifications
-            </a>
-            <a className={`list-group-item
+
+                <FontAwesomeIcon icon={faBell} />
+                <span class="d-none d-xl-inline"> Notifications</span>
+            </li>
+            <li className={`list-group-item
                     ${active === 'messages' ? 'active' : ''}`}>
-                Messages
-            </a>
-            <a className={`list-group-item
+
+                <FontAwesomeIcon icon={faEnvelope} />
+                <span class="d-none d-xl-inline"> Messages</span>
+            </li>
+            <li className={`list-group-item
                     ${active === 'bookmarks' ? 'active' : ''}`}>
-                Bookmarks
-            </a>
-            <a className={`list-group-item
+
+                <FontAwesomeIcon icon={faBookmark} />
+                <span class="d-none d-xl-inline"> Bookmarks</span>
+            </li>
+            <li className={`list-group-item
                     ${active === 'lists' ? 'active' : ''}`}>
-                Lists
-            </a>
-            <a className={`list-group-item
+
+                <FontAwesomeIcon icon={faList} />
+                <span class="d-none d-xl-inline"> Lists</span>
+            </li>
+            <li className={`list-group-item
                     ${active === 'profile' ? 'active' : ''}`}>
-                Profile
-            </a>
-            <a className={`list-group-item
+
+                <FontAwesomeIcon icon={faUser} />
+                <span class="d-none d-xl-inline"> Profile</span>
+            </li>
+            <li className={`list-group-item
                     ${active === 'more' ? 'active' : ''}`}>
-                More
-            </a>
+
+                <FontAwesomeIcon icon={faEllipsis} />
+                <span class="d-none d-xl-inline"> More</span>
+            </li>
         </div>
     );
 };
