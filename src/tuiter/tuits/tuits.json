@@ -7,9 +7,11 @@
         "title": "React.js is a component based front end library that makes it very easy to build Single Page Applications or SPAs",
         "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGfrJOJ3zF0VITT38ecUtpnX21rS-lyEwEnzKA7Lu_VQ&s",
         "liked": false,
+        "disliked": false,
         "replies": 1000,
         "retuits": 100,
         "likes": 10000,
+        "dislikes": 10000,
         "handle": "@reactjs",
         "tuit": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum"
     },
@@ -21,9 +23,11 @@
         "title": "100s of SpaceX Starships land on Mars after a 6 month journey. 1000s of Martian colonists being building Mars Base 1",
         "image": "https://infosec-jobs.com/media/company/logo/20/03/spacex.jpg",
         "liked": true,
+        "disliked": false,
         "replies": 123,
         "retuits": 432,
         "likes": 2345,
+        "dislikes": 0,
         "handle": "@spacex",
         "tuit": "You want to wake up in the morning and think the future is going to be great - and that’s what being a spacefaring civilization is all about. It’s about believing in the future and thinking that the future will be better than the past. And I can’t think of anything more exciting than going out there and being among the stars"
     },
@@ -36,9 +40,11 @@
         "image": "https://w7.pngwing.com/pngs/720/46/png-transparent-jquery-plain-wordmark-logo-icon-thumbnail.png",
         "tweets": "122K",
         "liked": false,
+        "disliked": false,
         "replies": 1000,
         "retuits": 100,
         "likes": 10000,
+        "dislikes": 10000,
         "handle": "@jquery",
         "tuit": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum"
     },
@@ -51,9 +57,11 @@
         "image": "https://seeklogo.com/images/N/nodejs-logo-FBE122E377-seeklogo.com.png",
         "tweets": "120K",
         "liked": true,
+        "disliked": true,
         "replies": 1000,
         "retuits": 100,
         "likes": 10000,
+        "dislikes": 10000,
         "handle": "@nodejs",
         "tuit": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum"
     }
